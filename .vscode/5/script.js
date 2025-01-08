@@ -2,6 +2,7 @@
 const apiUrl = "https://api.example.com/data";
 
 // Function to make a GET request
+
 function fetchData(url) {
   fetch(url)
     .then((response) => {
